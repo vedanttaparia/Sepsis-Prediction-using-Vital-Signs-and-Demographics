@@ -38,6 +38,7 @@ The last layer consists of a single dense layer cell with a sigmoid function
 Flask is used for deploying the model to a website.
 
 **output**
+
 ![image](https://user-images.githubusercontent.com/64605506/120540802-b7f3fb00-c406-11eb-8d40-0c30924ff78c.png)
 
 ![image](https://user-images.githubusercontent.com/64605506/120540823-bde9dc00-c406-11eb-9da5-f324748cfe14.png)
