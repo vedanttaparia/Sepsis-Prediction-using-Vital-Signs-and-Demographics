@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Sepsis Prediction</title>
+</head>
+<body>
+    <form method="POST" action="{{url_for('predict')}}  ">
+        <input class="form-control" name="hr" id="hr" type="text" placeholder="hr"><br>
+        <input class="form-control" name="o2sat" id="o2sat" type="text" placeholder="o2sat"><br>
+        <input class="form-control" name="temp" id="temp" type="text" placeholder="temp"><br> 
+        <input class="form-control" name="sbp" id="sbp" type="text" placeholder="sbp"><br>
+        <input class="form-control" name="map1" id="map1" type="text" placeholder="map1"><br>
+        <input class="form-control" name="resp" id="resp" type="text" placeholder="resp"><br>
+        <input class="form-control" name="gender" id="gender" type="text" placeholder="gender"><br>
+        <input class="form-control" name="age" id="age" type="text" placeholder="age"><br>
+        <input class="form-control" name="hospadmtime" id="hospadmtime" type="text" placeholder="hospadmtime"><br>
+        <input class="form-control" name="iculos" id="Input3" type="iculos" placeholder="iculos"><br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>
