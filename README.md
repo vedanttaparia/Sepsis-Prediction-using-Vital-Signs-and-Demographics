@@ -1,7 +1,7 @@
  # Sepsis Prediction using Vital Signs and Demographics
 **Sepsis** is a medical emergency that describes the body’s immune response to an infection process that can lead to the end of immunity and death.
 
-*Problem Statement:**
+**Problem Statement:**
 To predict Sepsis using Vital signs and Demographics from Patients clinical report so that patient gets time to recover in early-stage and some lives can be saved.
 
 The challenging part in Prediction of Sepsis is that Data is not proper for accurate prediction. In most cases Data is Unstructured and if it is Structured there are lots of unnecessary values/data which is mostly null values as it is clinical data. So, preprocessing of Data is very important for accurate prediction. The dataset contains the samples of data for each patient collected over a certain interval of time. Each sample contains vital signs, laboratory data and demographics of a patient. 
